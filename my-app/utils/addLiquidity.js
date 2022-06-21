@@ -29,7 +29,7 @@ export const addLiquidity = async (
         //create a new instance of exchange contract
         const exchangeContract = new Contract(
             EXCHANGE_CONTRACT_ADDRESS,
-            EXCHANGE_CONTRACT_ADDRESS,
+            EXCHANGE_CONTRACT_ABI,
             signer
         )
 
